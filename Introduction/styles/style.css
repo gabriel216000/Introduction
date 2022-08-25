@@ -1,14 +1,15 @@
+/*The paragraph gets customized*/
 p{
     color: red;
     width: 500px;
     
   }
-
+/*When you mouse over the "Mozilla Manifesto" link it changes to a gold color */
   a:hover {
     background-color: gold;
   }
 
-
+/*The font gets customized */
   html {
     font-size: 10px; 
     font-family: "Open Sans", sans-serif; 
@@ -17,7 +18,7 @@ p{
 }
 
 
-
+/*The heading gets some custom features*/
   h1 {
     font-size: 60px;
     text-align: center;
@@ -27,14 +28,14 @@ p{
     text-shadow: 3px 3px 1px black;
 
   }
-  
+  /*paragraph and list customization */
   p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
   }
 
-
+  /*The body gets customized in size */
   body {
     width: 600px;
     margin: 0 auto;
@@ -42,7 +43,7 @@ p{
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }
-
+/*Here I give the images the same size */
   img {
     display: block;
     margin: 0 auto;
@@ -50,5 +51,12 @@ p{
     height: 150px;
 
   }
-
-
+/*Here I give the button in the html custom features */
+  button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 12px;
+    border: 1px solid #e10c0c;
+    background-image: linear-gradient(rgb(254, 1, 1), #DDD);
+    font: 700 13px/18px Helvetica, arial;
+  }
