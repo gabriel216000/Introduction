@@ -1,3 +1,26 @@
+/*Here we create the onclick for clicking the picture on the webpage */
+const myImage = document.querySelector('img');
+
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/firefox.jfif') {
+    myImage.setAttribute('src','images/firefox2.png');
+  } else {
+    myImage.setAttribute('src','images/firefox.jfif');
+  }
+}
+/*Here we give the Log in button a function */
+let myButton = document.querySelector('button');
+function setUserName() {
+  const myName = prompt('Please enter your account.');
+}
+
+  myButton.onclick = () => {
+    setUserName();
+  }
+  
+
+
 
 /*
 const myHeading = document.querySelector('h1');
@@ -38,21 +61,8 @@ function multiply(num1,num2) {
   alert('Ouch! Stop poking me!');
 });
 
-  */
- 
+  
 
-const myImage = document.querySelector('img');
-
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute('src');
-  if (mySrc === 'images/firefox.jfif') {
-    myImage.setAttribute('src','images/firefox2.png');
-  } else {
-    myImage.setAttribute('src','images/firefox.jfif');
-  }
-}
-
-/*
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
@@ -76,13 +86,5 @@ function setUserName() {
   }
 */
 
-let myButton = document.querySelector('button');
-function setUserName() {
-  const myName = prompt('Please enter your account.');
-}
 
-  myButton.onclick = () => {
-    setUserName();
-  }
-  
  
