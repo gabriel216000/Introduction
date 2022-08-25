@@ -74,9 +74,15 @@ function setUserName() {
     const storedName = localStorage.getItem('name');
     myHeading.textContent = `Mozilla is cool, ${storedName}`;
   }
+*/
+
+let myButton = document.querySelector('button');
+function setUserName() {
+  const myName = prompt('Please enter your account.');
+}
 
   myButton.onclick = () => {
     setUserName();
   }
-  */
+  
  
