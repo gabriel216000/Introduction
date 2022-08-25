@@ -13,6 +13,8 @@ myImage.onclick = () => {
 let myButton = document.querySelector('button');
 function setUserName() {
   const myName = prompt('Please enter your account.');
+  const myName2 = prompt('Please enter your password.');
+
 }
 
   myButton.onclick = () => {
